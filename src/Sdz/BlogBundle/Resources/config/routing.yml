@@ -1,0 +1,18 @@
+sdzblog_accueil:
+    path:      /
+    defaults:  { _controller: SdzBlogBundle:Blog:index }
+
+sdzblog_voir:
+    path:      /article/{id}
+    defaults:  { _controller: SdzBlogBundle:Blog:voir }
+
+sdzblog_ajouter:
+    path:      /ajouter
+    defaults:  { _controller: SdzBlogBundle:Blog:ajouter }
+
+sdzblog_voir_slug:
+    path:     /{annee}/{slug}.{format}
+    defaults: { _controller: SdzBlogBundle:Blog:voirSlug, format: html }
+    requirements:
+          annee:  \d{4}
+          format: html|xml
