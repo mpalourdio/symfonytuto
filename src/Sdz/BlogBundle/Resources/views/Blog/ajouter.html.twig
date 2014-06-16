@@ -1,0 +1,19 @@
+{% extends "SdzBlogBundle::layout.html.twig" %}
+
+{% block title %}
+    AJouter un article - {{ parent() }}
+{% endblock %}
+
+{% block sdzblog_body %}
+
+    <h2>AJouter un article</h2>
+
+    {% include "SdzBlogBundle:Blog:formulaire.html.twig" %}
+
+    <p>
+        Vous ajoutez un article
+    </p>
+
+
+
+{% endblock %}
