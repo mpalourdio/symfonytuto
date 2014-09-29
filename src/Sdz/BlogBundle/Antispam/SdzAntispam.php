@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Author: bduhr
- * Date: 16/06/14
- * Time: 11:54
- */
 class SdzAntispam
 {
     protected $mailer;

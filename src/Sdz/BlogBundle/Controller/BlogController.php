@@ -1,9 +1,4 @@
 <?php
-/**
- * Author: bduhr
- * Date: 11/06/14
- * Time: 14:58
- */
 
 namespace Sdz\BlogBundle\Controller;
 
