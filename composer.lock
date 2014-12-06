@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9bd9407f1537dcc7dd6a0b7ba41d02e",
+    "hash": "45e59de30ae45836150ab321adf02775",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -962,26 +962,29 @@
         },
         {
             "name": "mpalourdio/twitter-widget-bundle",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpalourdio/TwitterWidgetBundle.git",
-                "reference": "346171ed3b13de5563c3753e4c4cb482289c2b0a"
+                "reference": "c19ae449bcc650caa2a3299d623e40eee1a7f5c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpalourdio/TwitterWidgetBundle/zipball/346171ed3b13de5563c3753e4c4cb482289c2b0a",
-                "reference": "346171ed3b13de5563c3753e4c4cb482289c2b0a",
+                "url": "https://api.github.com/repos/mpalourdio/TwitterWidgetBundle/zipball/c19ae449bcc650caa2a3299d623e40eee1a7f5c5",
+                "reference": "c19ae449bcc650caa2a3299d623e40eee1a7f5c5",
                 "shasum": ""
             },
             "require": {
                 "mpalourdio/twitter-widgets": "0.*",
                 "php": ">=5.5",
-                "symfony/symfony": "2.5.*"
+                "symfony/config": "~2.2",
+                "symfony/dependency-injection": "~2.2",
+                "symfony/http-kernel": "~2.2",
+                "twig/twig": "~1.11"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*",
-                "squizlabs/php_codesniffer": "1.5.*"
+                "phpunit/phpunit": "~4.3",
+                "squizlabs/php_codesniffer": "~1.5"
             },
             "type": "library",
             "extra": {
@@ -1014,29 +1017,30 @@
                 "twitter",
                 "widget"
             ],
-            "time": "2014-10-06 11:21:00"
+            "time": "2014-10-22 20:56:34"
         },
         {
             "name": "mpalourdio/twitter-widgets",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mpalourdio/TwitterWidgets.git",
-                "reference": "c36129ac46074f64711719e1d13b39684b90d71d"
+                "reference": "c4935848bbf282c09f1fc649f14ed5b30faa3c7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpalourdio/TwitterWidgets/zipball/c36129ac46074f64711719e1d13b39684b90d71d",
-                "reference": "c36129ac46074f64711719e1d13b39684b90d71d",
+                "url": "https://api.github.com/repos/mpalourdio/TwitterWidgets/zipball/c4935848bbf282c09f1fc649f14ed5b30faa3c7b",
+                "reference": "c4935848bbf282c09f1fc649f14ed5b30faa3c7b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5",
-                "zendframework/zend-filter": "2.3.*"
+                "zendframework/zend-filter": "~2.3",
+                "zendframework/zend-stdlib": "~2.3"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*",
-                "squizlabs/php_codesniffer": "1.5.*"
+                "phpunit/phpunit": "~4.3",
+                "squizlabs/php_codesniffer": "~1.5"
             },
             "type": "library",
             "extra": {
@@ -1067,7 +1071,7 @@
                 "twitter",
                 "widget"
             ],
-            "time": "2014-10-06 11:16:56"
+            "time": "2014-10-22 20:56:18"
         },
         {
             "name": "psr/log",
@@ -1494,16 +1498,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.5.8",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "00da57005c9c76773670f4d958dd95e9f4ae72f6"
+                "reference": "d805dfd67950848ec0338b4acd75777b340977b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/00da57005c9c76773670f4d958dd95e9f4ae72f6",
-                "reference": "00da57005c9c76773670f4d958dd95e9f4ae72f6",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/d805dfd67950848ec0338b4acd75777b340977b7",
+                "reference": "d805dfd67950848ec0338b4acd75777b340977b7",
                 "shasum": ""
             },
             "require": {
@@ -1519,6 +1523,7 @@
                 "symfony/console": "self.version",
                 "symfony/css-selector": "self.version",
                 "symfony/debug": "self.version",
+                "symfony/debug-bundle": "self.version",
                 "symfony/dependency-injection": "self.version",
                 "symfony/doctrine-bridge": "self.version",
                 "symfony/dom-crawler": "self.version",
@@ -1553,23 +1558,25 @@
                 "symfony/twig-bridge": "self.version",
                 "symfony/twig-bundle": "self.version",
                 "symfony/validator": "self.version",
+                "symfony/var-dumper": "self.version",
                 "symfony/web-profiler-bundle": "self.version",
                 "symfony/yaml": "self.version"
             },
             "require-dev": {
                 "doctrine/data-fixtures": "1.0.*",
                 "doctrine/dbal": "~2.2",
+                "doctrine/doctrine-bundle": "~1.2",
                 "doctrine/orm": "~2.2,>=2.2.3",
                 "egulias/email-validator": "~1.2",
                 "ircmaxell/password-compat": "~1.0",
-                "monolog/monolog": "~1.3",
+                "monolog/monolog": "~1.11",
                 "ocramius/proxy-manager": ">=0.3.1,<0.6-dev",
                 "propel/propel1": "~1.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -1603,7 +1610,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-12-03 14:18:17"
+            "time": "2014-12-03 16:40:43"
         },
         {
             "name": "twig/extensions",
