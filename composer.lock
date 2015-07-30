@@ -1566,16 +1566,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.6.10",
+            "version": "v2.6.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "e246af5f3bdf64fa5a85936ee78e3574e094cf5f"
+                "reference": "c6ab380a577e7bfb8db6e6f3105f470f97c83235"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/e246af5f3bdf64fa5a85936ee78e3574e094cf5f",
-                "reference": "e246af5f3bdf64fa5a85936ee78e3574e094cf5f",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/c6ab380a577e7bfb8db6e6f3105f470f97c83235",
+                "reference": "c6ab380a577e7bfb8db6e6f3105f470f97c83235",
                 "shasum": ""
             },
             "require": {
@@ -1679,7 +1679,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-07-13 09:34:32"
+            "time": "2015-07-26 10:44:22"
         },
         {
             "name": "twig/extensions",
@@ -1850,20 +1850,20 @@
         },
         {
             "name": "zendframework/zend-stdlib",
-            "version": "2.5.1",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-stdlib.git",
-                "reference": "cc8e90a60dd5d44b9730b77d07b97550091da1ae"
+                "reference": "a35758803fc9051ec1aff43989e679b6b451b1b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/cc8e90a60dd5d44b9730b77d07b97550091da1ae",
-                "reference": "cc8e90a60dd5d44b9730b77d07b97550091da1ae",
+                "url": "https://api.github.com/repos/zendframework/zend-stdlib/zipball/a35758803fc9051ec1aff43989e679b6b451b1b4",
+                "reference": "a35758803fc9051ec1aff43989e679b6b451b1b4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.23"
+                "php": ">=5.5"
             },
             "require-dev": {
                 "fabpot/php-cs-fixer": "1.7.*",
@@ -1884,8 +1884,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev",
-                    "dev-develop": "2.6-dev"
+                    "dev-master": "2.6-dev",
+                    "dev-develop": "2.7-dev"
                 }
             },
             "autoload": {
@@ -1902,7 +1902,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2015-06-03 15:32:03"
+            "time": "2015-07-21 17:08:05"
         }
     ],
     "packages-dev": [
